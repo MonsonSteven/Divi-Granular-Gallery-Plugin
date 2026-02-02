@@ -1,0 +1,38 @@
+.htc-gallery__filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.htc-gallery__filtertitle {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.htc-gallery__filteritem {
+  display: block;
+  margin: 6px 0;
+}
+
+.htc-gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.htc-gallery__thumb {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.htc-gallery__pager {
+  margin-top: 16px;
+  text-align: center;
+}
+.htc-gallery__count {
+  opacity: 0.7;
+  font-size: 0.9em;
+  margin-left: 4px;
+}
